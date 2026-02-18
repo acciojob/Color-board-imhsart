@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+.container{
+	display: grid;
+	height: 350px;
+	width: 650px;
+	grid-template-columns:repeat(40,1fr);
+	grid-template-rows: repeat(20,1fr);
+	background-color: black;
+	gap: 4px;
+	padding: 10px 15px;
+}
+.square{
+  background-color: #232023;
+  opacity: 0.8;
+}
