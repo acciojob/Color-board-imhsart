@@ -14,7 +14,7 @@ for(let i of squares){
 		e.target.style.backgroundColor = color;
 	})
 	i.addEventListener('mouseleave', (e)=> {
-			e.target.style.backgroundColor = 'rgb(29,29,29)';
+			e.target.style.backgroundColor = '';
 			e.target.style.transition = '1s';
 	})
 }
